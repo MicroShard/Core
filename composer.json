@@ -31,5 +31,10 @@
   },
   "suggest": {
     "microshard/jsonrpcclient": "A client bundle for communication with the JsonRpcServer"
+  },
+  "scripts": {
+    "post-update": [
+      "MicroShard\\Core\\Installer::copyDistFiles"
+    ]
   }
 }
