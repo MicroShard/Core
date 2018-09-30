@@ -29,11 +29,8 @@
     "phpunit/phpunit": "^6.5 || ^7.0",
     "php-mock/php-mock": "^2.0"
   },
-  "suggest": {
-    "microshard/jsonrpcclient": "A client bundle for communication with the JsonRpcServer"
-  },
   "scripts": {
-    "post-update": [
+    "post-update-cmd": [
       "MicroShard\\Core\\Installer::copyDistFiles"
     ]
   }
